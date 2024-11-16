@@ -19,14 +19,15 @@ namespace Lab2
         }
 
         private static double InputA()
-        { Console.Write("Enter A: ");
+        {
+            Console.Write("Enter A: ");
             return Convert.ToDouble(Console.ReadLine());
-                
+
         }
 
-        private static double InputB()
+        private static double add()
         {
-            Console.Write("Enter B: ");
+            Console.Write("Perform the operation \"+\"");
             return Convert.ToDouble(Console.ReadLine());
 
         }
