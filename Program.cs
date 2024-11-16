@@ -2,7 +2,7 @@
 
 namespace Lab2
 {
-    class Program
+    class Programm
     {
 
         static void Main(string[] args)
@@ -14,6 +14,14 @@ namespace Lab2
             Console.WriteLine("Perform the operation \"-\"");
             Console.WriteLine("Perform the operation \"*\"");
             Console.WriteLine("Perform the operation \"/\"");
+
+
+        }
+
+        private static double InputA()
+        { Console.Write("Enter A: ");
+            return Convert.ToDouble(Console.ReadLine());
+                
         }
 
     }
