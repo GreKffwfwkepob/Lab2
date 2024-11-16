@@ -25,9 +25,9 @@ namespace Lab2
 
         }
 
-        private static double multiply()
+        private static double divide()
         {
-            Console.Write("Perform the operation \"*\"");
+            Console.Write("Perform the operation \"/\"");
             return Convert.ToDouble(Console.ReadLine());
 
         }
