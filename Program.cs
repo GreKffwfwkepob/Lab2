@@ -25,9 +25,9 @@ namespace Lab2
 
         }
 
-        private static double subtract()
+        private static double multiply()
         {
-            Console.Write("Perform the operation \"-\"");
+            Console.Write("Perform the operation \"*\"");
             return Convert.ToDouble(Console.ReadLine());
 
         }
