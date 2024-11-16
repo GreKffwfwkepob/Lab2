@@ -24,6 +24,13 @@ namespace Lab2
                 
         }
 
+        private static double InputB()
+        {
+            Console.Write("Enter B: ");
+            return Convert.ToDouble(Console.ReadLine());
+
+        }
+
     }
 }
 
